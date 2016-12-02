@@ -1,0 +1,27 @@
+{
+	"id" : "", 
+	"name": "",
+	"posterPath": "",
+	"descriptionImages": [],
+	"description": "",
+	"category" : {
+		"id": "",
+		"name" : "",
+		"child" : []
+	},
+	"location": {
+		"address": "",
+		"city": "",
+		"ward": "",
+		"longtitude": "",
+		"latitude": "",
+	},
+	"timeBegin": "",
+	"active": false,
+	"createdAt": "",
+	"createdBy": {
+		"id" : "",
+		"userName": "",
+		"phoneNumber": ""
+	}
+}

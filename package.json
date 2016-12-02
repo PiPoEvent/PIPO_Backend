@@ -1,0 +1,19 @@
+{
+  "name": "pipo_backend",
+  "version": "1.0.0",
+  "description": "Create event ",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiPoEvent/PIPO_Backend.git"
+  },
+  "author": "ThangCao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiPoEvent/PIPO_Backend/issues"
+  },
+  "homepage": "https://github.com/PiPoEvent/PIPO_Backend#readme"
+}
