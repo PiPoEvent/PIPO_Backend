@@ -20,7 +20,7 @@ var imageController = function() {
     var postImageProfile = function(req, res) {
         try {
             imageService.postImageWithPath(req, res, config.getPathImageUser(),
-                60, 60, '/images/profile/', 'jpg');
+                90, 90, '/images/profile/', 'jpg');
         } catch (err) {
             pipoLogger.log(err)
             res.json("Error:");
@@ -28,7 +28,7 @@ var imageController = function() {
 
     };
 
-    var getImageTicket = function(req, res) {
+    var getImageEvent = function(req, res) {
         try {
             var file = req.params.file;
             imageService.getImageWithPath(res, config.getPathImageTicket() + file);
@@ -39,10 +39,10 @@ var imageController = function() {
 
     };
 
-    var postImageTicket = function(req, res) {
+    var postImageEvent = function(req, res) {
         try {
             imageService.postImageWithPath(req, res, config.getPathImageTicket(),
-                400, 300, '/images/ticket/', 'jpg');
+                600, 800, '/images/event/', 'jpg');
         } catch (err) {
             pipoLogger.log(err)
             res.json("Error:");
@@ -53,8 +53,8 @@ var imageController = function() {
     return {
         postImageProfile: postImageProfile,
         getImageProfile: getImageProfile,
-        getImageTicket: getImageTicket,
-        postImageTicket: postImageTicket
+        getImageEvent: getImageEvent,
+        postImageEvent: postImageEvent
     }
 }();
 module.exports = imageController;

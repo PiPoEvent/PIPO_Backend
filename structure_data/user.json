@@ -1,39 +1,22 @@
-
+™
 {
 	"id": "",
-	"userName": "",
-	"firstName": "",
-	"lastName": "",
+	"username": "",
+	"isAdmin": "",
+	"email": "",
+	"firstname": "",
+	"lastname": "",
 	"phoneNumber": "",
 	"password": "",
-	"myEvents": [
+	"profileImage": {
+			"imageUrl": ""
+	},
+	"joinedEvent": [
 		{
 			"id": "", 	// Id of event
 			"name": "",
 			"posterPath": "",
-			"location": {
-				"address": "",
-				"city": "",
-				"ward": "",
-				"longtitude": "",
-				"latitude": ""
-			},
-			"timeBegin": "",
-		}
-	],
-	"favoriteEvents": [
-		{
-			"id": "", 	// Id of event
-			"name": "",
-			"posterPath": "",
-			"location": {
-				"address": "",
-				"city": "",
-				"ward": "",
-				"longtitude": "",
-				"latitude": ""
-			},
-			"timeBegin": "",
+			"timeBegin": ""
 		}
 	]
 }

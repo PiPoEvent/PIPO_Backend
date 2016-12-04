@@ -1,4 +1,4 @@
-const CONFIG_DATABASE = function(){
+var CONFIG_DATABASE = function(){
   const TYPE_DATABASE = "mongodb";
   const HOST = "localhost";
   const PORT = "27017";
@@ -6,7 +6,7 @@ const CONFIG_DATABASE = function(){
 
   var getUrlConnection = function(){
     return TYPE_DATABASE + "://" + HOST + ":" + PORT + "/" + DATABASE; 
-  }
+  };
 
   return { urlConnection: getUrlConnection }
 

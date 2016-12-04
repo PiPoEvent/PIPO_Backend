@@ -18,7 +18,11 @@
   "homepage": "https://github.com/PiPoEvent/PIPO_Backend#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "easyimage": "^2.1.0",
     "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-develop-server": "^0.5.2",
+    "mongoose": "^4.7.1",
     "morgan": "^1.7.0",
     "multer": "^1.2.0",
     "path": "^0.12.7"

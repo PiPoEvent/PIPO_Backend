@@ -1,4 +1,4 @@
-var CONSTANT = {
+const CONSTANT = {
   PROFILE_WIDTH: 60,
   PRODUCT_HEIGTH: 60
 };
