@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/PiPoEvent/PIPO_Backend/issues"
   },
-  "homepage": "https://github.com/PiPoEvent/PIPO_Backend#readme"
+  "homepage": "https://github.com/PiPoEvent/PIPO_Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "path": "^0.12.7"
+  }
 }

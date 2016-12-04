@@ -7,8 +7,6 @@
 	- city.json
 	- user.json
 
-
-
 # How to build it? 
 
 	- Need to install lastest version Node.Js : https://nodejs.org/en/
