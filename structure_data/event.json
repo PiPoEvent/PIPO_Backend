@@ -1,14 +1,19 @@
 {
 	"id" : "",
-	"idUser": "",
 	"name": "",
-	"posterPath": "",
-	"descriptionImages": [],
+	"posterPath": {
+		"imageUrl": "",
+	},
+	"descriptionImages": [
+		{
+			"imageUrl": ""
+		}
+	],
 	"description": "",
 	"category" : {
 		"id": "",
 		"name" : "",
-		"child" : []
+		"child" : [] // Array String
 	},
 	"location": {
 		"address": "",
@@ -22,7 +27,19 @@
 	"createdAt": "",
 	"createdBy": {
 		"id" : "",
-		"userName": "",
-		"phoneNumber": ""
-	}
+		"username": "",
+		"phoneNumber": "",
+		"profileImage": {
+			"imageUrl": ""
+		}
+	},
+	"joiningPeople": [
+		{
+			"id": "",
+			"username": "",
+			"profileImage": {
+				"imageUrl": ""
+			}
+		}
+	]
 }

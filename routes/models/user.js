@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+
 var UserSchema = new mongoose.Schema({
     id: String,
     email: String,
@@ -11,12 +12,7 @@ var UserSchema = new mongoose.Schema({
     profileImage: {
         imageUrl: String,
     },
-    joinedEvent: {
-        id: String,
-        name: String,
-        posterPath: String,
-        timeBegin: String
-    }
+    joinedEvent: []
 });
 
 // Export the Mongoose model
